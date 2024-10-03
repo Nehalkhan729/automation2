@@ -24,7 +24,7 @@ jobs:
       working-directory: ./automation       # Set working directory to /automation
 
     - name: Build Docker image
-      run: docker build -t shahnawaz312/java-app:latest .
+      run: docker build -t nehalkhan729/java-app:latest .
       working-directory: ./automation       # Set working directory to /automation
 
     - name: Login to DockerHub
