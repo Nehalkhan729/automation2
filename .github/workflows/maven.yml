@@ -31,7 +31,7 @@ jobs:
       run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
 
     - name: Push Docker image to DockerHub
-      run: docker push shahnawaz312/java-app:latest
+      run: docker push nehalkhan729/java-app:latest
 
   deploy:
     needs: build
